@@ -1,0 +1,62 @@
+html {
+	height:100%;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	height: 98%;
+}
+
+section {
+	align-content: center;
+	display: block;
+	height:100%;
+}
+
+nav {
+	float: left;
+	width: 25%;
+	border: 1px solid black;
+	margin-right: 10px;
+	height: 100%;
+}
+
+nav > h3 {
+	padding-left: 5px;
+}
+
+#Albums {
+	overflow-y: scroll;
+	height: 93%;
+}
+
+#Albums > div {
+	border: 1px solid black;
+	padding: 5px;
+	cursor: default;
+}
+
+main {
+	width: 74%;
+	margin-left: 26%;
+	border: 1px solid black;
+
+	height: 100%;
+}
+
+#Photos {
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	overflow-y: scroll;
+	height: 97%;
+}
+
+#Photos > img {
+	height: 250px;
+	width: 250px;
+	padding: 1% 0 1% 0;
+}
